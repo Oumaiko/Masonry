@@ -19,6 +19,8 @@
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:MASExampleListViewController.new];
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
+    
+    NSLog(@"appdelegate");
     return YES;
 }
 
